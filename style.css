@@ -95,13 +95,10 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
+    vertical-align: middle;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-li > * {
-    vertical-align: middle;
 }
 
 .items__input[type="checkbox"] {
@@ -124,8 +121,8 @@ li > * {
 }
 
 /* Completed */
-.tasks__container .item__label {
-    text-decoration: line-through
+#completed-tasks__container {
+    text-decoration: line-through;
     color: #888;
 }
 
