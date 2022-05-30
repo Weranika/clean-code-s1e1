@@ -59,7 +59,8 @@
     margin: 0;
     text-transform: uppercase;
 }
-.items__input[type="text"] {
+.items__input[type="text"],
+.input-text[type="text"] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -71,9 +72,11 @@
     font-family: Lato, sans-serif;
     color: #888;
     width: 226px;
+    display:none;
 }
 .todo__label[type="text"] {
     width: 318px;
+    display:block;
 }
 .items__input[type="text"]:focus {
     color: #333;
@@ -123,9 +126,6 @@
 
 /* Edit Task */
 
-ul li input[type=text] {
-    display:none;
-}
 .todo__edit-mode input[type=text] {
     display:inline-block;
     width:224px;
@@ -134,9 +134,12 @@ ul li input[type=text] {
     display:none;
 }
 
+/**********************media************************/
+
 @media (max-width:768px) {
 
-    .details { text-align: center;
+    .details { 
+        text-align: center;
     }
 
 }
