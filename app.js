@@ -22,11 +22,12 @@ var createNewTaskElement=function(taskString){
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
-    checkBox.className="items__input";
+    
     //label
     var label=document.createElement("label");//label
     //input (text)
     var editInput=document.createElement("input");//text
+    editInput.className="items__input";
     //button.edit
     var editButton=document.createElement("button");//edit button
     editButton.className="input-form__button";
@@ -86,6 +87,7 @@ var editTask=function(){
     var listItem=this.parentNode;
 
     var editInput=listItem.querySelector('input[type=text]');
+   
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit__button");
     var containsClass=listItem.classList.contains("todo__edit-mode");
@@ -96,6 +98,8 @@ var editTask=function(){
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
+        editInput.className = "input-text";
+        label.className = "item__label";
     }else{
         editInput.value=label.innerText;
         editBtn.innerText="Save";
