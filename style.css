@@ -25,7 +25,7 @@
 .add-items__input {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add-items__container {
     display: flex;
@@ -124,11 +124,11 @@
 /* Edit Task */
 
 ul li input[type=text] {
-    display:none
+    display:none;
 }
 .todo__edit-mode input[type=text] {
     display:inline-block;
-    width:224px
+    width:224px;
 }
 .todo__edit-mode label {
     display:none;
