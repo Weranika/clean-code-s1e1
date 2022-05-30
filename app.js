@@ -25,6 +25,7 @@ var createNewTaskElement=function(taskString){
     
     //label
     var label=document.createElement("label");//label
+    label.className="item__label";
     //input (text)
     var editInput=document.createElement("input");//text
     editInput.className="items__input";
