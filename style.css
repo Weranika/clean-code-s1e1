@@ -116,7 +116,7 @@
 }
 
 /* Completed */
-#completed-tasks__container {
+#completed-tasks__container .item__label{
     text-decoration: line-through;
     color: #888;
 }
