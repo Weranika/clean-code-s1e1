@@ -31,7 +31,7 @@
     display: flex;
 }
 .tasks__container {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .input-form__button {
@@ -42,7 +42,7 @@
     width: 60px;
     font-family: Lato, sans-serif;
     cursor: pointer;
-    list-style:none;
+    list-style: none;
 }
 .input-form__button:hover {
     color: #3a3A3a;
@@ -72,11 +72,11 @@
     font-family: Lato, sans-serif;
     color: #888;
     width: 226px;
-    display:none;
+    display: none;
 }
 .todo__label[type="text"] {
     width: 318px;
-    display:block;
+    display: block;
 }
 .items__input[type="text"]:focus {
     color: #333;
@@ -127,11 +127,11 @@
 /* Edit Task */
 
 .todo__edit-mode input[type=text] {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 .todo__edit-mode label {
-    display:none;
+    display: none;
 }
 
 /**********************media************************/
